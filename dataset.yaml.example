@@ -5,4 +5,4 @@ val: val  # val images (relative to 'path')
 
 # Classes
 nc: 1  # number of classes
-names: ['notebook']  # class names
+names: ['board']  # class names

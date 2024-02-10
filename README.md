@@ -1,5 +1,5 @@
 # YOLOモデルを作る
-物体検出で使うための[ultralytics](https://docs.ultralytics.com/ja)のYOLOモデルを作成します。
+物体検出で使うための[ultralytics](https://docs.ultralytics.com/ja)のYOLOモデルを作成します。  
 作成したモデルは[Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui/)の[ADetailer](https://github.com/Bing-su/adetailer)や[ComfyUI](https://github.com/comfyanonymous/ComfyUI)の[ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack/)などで利用することができます。
 
 ## 手順
@@ -231,8 +231,10 @@ YOLOモデルをモデルフォルダに配置します。
 ComfyUIのComfyUI-Impact-Packを使って動作確認してみます。  
 ワークフロー例 : [step7_board_detailer.png](workflow/step7_board_detailer.png)  
 実際に検出してくれました！  
-![Step7動作確認](img/step7_result.png)
-
+![Step7動作確認](img/step7_result.png)  
+  
+今回、例として作ったYOLOモデルはcivitaiにアップしました。  
+https://civitai.com/models/300228
 
 ## 参考ページ
 - [YOLOv8を使って簡単に画像認識する \- ケムファク](https://chem-fac.com/yolov8/)

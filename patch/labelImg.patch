@@ -1,0 +1,11 @@
+--- venv/Lib/site-packages/labelImg/labelImg.py	2021-10-12 04:53:06.000000000 +0900
++++ src/labelImg.py	2024-02-10 15:48:32.476138000 +0900
+@@ -962,7 +962,7 @@
+     def scroll_request(self, delta, orientation):
+         units = - delta / (8 * 15)
+         bar = self.scroll_bars[orientation]
+-        bar.setValue(bar.value() + bar.singleStep() * units)
++        bar.setValue(int(bar.value() + bar.singleStep() * units))
+ 
+     def set_zoom(self, value):
+         self.actions.fitWidth.setChecked(False)

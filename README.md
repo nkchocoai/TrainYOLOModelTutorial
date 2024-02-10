@@ -225,6 +225,8 @@ cp runs/detect/train/weights/best.pt cant_show_this.pt
 ```
   
 YOLOモデルをモデルフォルダに配置します。
+- ADetailer(webui)の場合
+  - `stable-diffusion-webui\models\adetailer`
 - ComfyUI-Impact-Pack(ComfyUI)の場合
   - `ComfyUI_windows_portable\ComfyUI\models\ultralytics\bbox`
   
